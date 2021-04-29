@@ -29,7 +29,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         PP <i class="fas fa-bahai" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
